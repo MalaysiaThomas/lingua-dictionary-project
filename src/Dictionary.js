@@ -25,14 +25,27 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <h2>Lingua Dictionary</h2>
+      <h1>
+        Lingua <br /> Dictionary
+      </h1>
 
+      <div className="hint">
+        <p>
+          Type any word in the search bar below to get its definition, pronunciation, usage, and more.
+        </p>
+      </div>
+      
       <form onSubmit={search}>
-        <input type="search" onChange={handleKeywordChange} autoFocus={true} placeholder="Search for a word..." />
+        <input
+          type="search"
+          onChange={handleKeywordChange}
+          autoFocus={true}
+          placeholder="Search for a word..."
+        />
         <input type="submit" value="Search" />
       </form>
 
-      <Results results={results}/>
+      <Results results={results} />
     </div>
   );
 }

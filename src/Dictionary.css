@@ -1,0 +1,26 @@
+.Dictionary {
+    border: 2px solid red;
+    max-width: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.Dictionary h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing:  3px;
+  text-align: center;
+}
+
+.Dictionary form {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; */
+
+}
