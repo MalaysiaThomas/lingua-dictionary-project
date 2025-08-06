@@ -13,15 +13,15 @@ export default function Results(props) {
         let example = props.results.meanings[0].example;
         let synonyms = props.results.meanings[0].synonyms;
         return (
-            <div className="Results">
-                <h3>{word}</h3>
-                <h4>{phonetic}</h4>
-                <p>{partOfSpeech}</p>
-                <p>{definition}</p>
-                <Example example={example} />
-                <Synonyms synonyms={synonyms} />
-            </div>
-            );
+          <div className="Results">
+            <h3>{word}</h3>
+            <h4>{phonetic}</h4>
+            <p>{partOfSpeech}</p>
+            <p>{definition}</p>
+            <Example example={example} />
+            <Synonyms synonyms={synonyms} />
+          </div>
+        );
     } else {
         return null;
     }
