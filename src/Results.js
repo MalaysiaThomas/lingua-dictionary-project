@@ -1,6 +1,7 @@
 import React from "react";
 import "./Results.css";
 import Synonyms from "./Synonyms";
+import Example from "./Example";
 
 export default function Results(props) {
     console.log(props.results);
@@ -9,6 +10,7 @@ export default function Results(props) {
         let phonetic = props.results.phonetic;
         let partOfSpeech = props.results.meanings[0].partOfSpeech;
         let definition = props.results.meanings[0].definition;
+        let example = props.results.meanings[0].example;
         let synonyms = props.results.meanings[0].synonyms;
         return (
             <div className="Results">
@@ -16,7 +18,7 @@ export default function Results(props) {
                 <h4>{phonetic}</h4>
                 <p>{partOfSpeech}</p>
                 <p>{definition}</p>
-
+                <Example example={example} />
                 <Synonyms synonyms={synonyms} />
             </div>
             );
