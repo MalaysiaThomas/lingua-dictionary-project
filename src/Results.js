@@ -1,5 +1,6 @@
 import React from "react";
 import "./Results.css";
+import Synonyms from "./Synonyms";
 
 export default function Results(props) {
     console.log(props.results);
@@ -15,13 +16,8 @@ export default function Results(props) {
                 <h4>{phonetic}</h4>
                 <p>{partOfSpeech}</p>
                 <p>{definition}</p>
-                <h5>Synonyms:</h5>
 
-                <ul>
-                <li>{synonyms[0]}</li>
-                <li>{synonyms[1]}</li>
-                <li>{synonyms[2]}</li>
-                </ul>
+                <Synonyms synonyms={synonyms} />
             </div>
             );
     } else {
