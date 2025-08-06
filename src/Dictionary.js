@@ -34,7 +34,7 @@ export default function Dictionary() {
           Type any word in the search bar below to get its definition, pronunciation, usage, and more.
         </p>
       </div>
-      
+
       <form onSubmit={search}>
         <input
           type="search"
