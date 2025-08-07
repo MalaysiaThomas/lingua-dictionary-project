@@ -6,7 +6,10 @@
     flex-direction: column;
     margin: 0 auto;
     padding: 50px 20px;
-    
+    height: 90dvh;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
 
 .Dictionary h1 {
