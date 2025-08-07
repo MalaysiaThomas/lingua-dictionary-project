@@ -17,8 +17,8 @@ export default function Footer() {
           rel="noopener noreferrer"
         >
           GitHub
-        </a>
-        . Hosted on{" "}
+        </a>. 
+        Hosted on{" "}
         <a
           href="https://linguadictionary.netlify.app/"
           target="_blank"
