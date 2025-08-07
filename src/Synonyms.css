@@ -1,0 +1,16 @@
+.Synonyms ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 25px 0 10px;
+    padding: 0;
+}
+
+.Synonyms li {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+}

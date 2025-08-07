@@ -31,7 +31,8 @@ export default function Dictionary() {
 
       <div className="hint">
         <p>
-          Type any word in the search bar below to get its definition, pronunciation, usage, and more.
+          Type any word in the search bar below to get its definition,
+          pronunciation, usage, and more.
         </p>
       </div>
 
@@ -42,7 +43,7 @@ export default function Dictionary() {
           autoFocus={true}
           placeholder="Search for a word..."
         />
-        <input type="submit" value="Search" />
+        <input class="btn btn-light" type="submit" value="Search" />
       </form>
 
       <Results results={results} />

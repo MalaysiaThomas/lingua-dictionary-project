@@ -1,0 +1,15 @@
+.Results {
+    background: rgba(248, 245, 245, 0.993);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.7px);
+    -webkit-backdrop-filter: blur(11.7px);
+    border: 1px solid rgba(240, 232, 232, 0.422);
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+p {
+    margin-bottom: 3px;
+}

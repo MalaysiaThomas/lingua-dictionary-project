@@ -14,10 +14,13 @@ export default function Results(props) {
         let synonyms = props.results.meanings[0].synonyms;
         return (
           <div className="Results">
-            <h3>{word}</h3>
-            <h4>{phonetic}</h4>
+            <h3 class="text-center">{word}</h3>
+            <h4 class="text-center">
+              <em>{phonetic}</em>
+            </h4>
+
             <p>{partOfSpeech}</p>
-            <p>{definition}</p>
+            <p class="fw-bold">{definition}</p>
             <Example example={example} />
             <Synonyms synonyms={synonyms} />
           </div>
