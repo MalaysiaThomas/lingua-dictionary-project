@@ -1,12 +1,11 @@
 .Dictionary {
-    border: 2px solid red;
     max-width: 800px;
     text-align: center;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     padding: 50px 20px;
-    height: 90dvh;
+    height: 85dvh;
     display: flex;
     justify-content: center;
     margin: 20px 0;
@@ -19,6 +18,17 @@
   text-transform: uppercase;
   letter-spacing:  3px;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.Dictionary .hint {
+    font-size: 15px;
+    padding: 0 30px;
+    margin-top: 10px;
+}
+
+.Dictionary .hint p {
+    margin: 0;
 }
 
 .Dictionary form {
